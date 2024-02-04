@@ -355,7 +355,6 @@
 "Assets/Scripts/General/TimeScript.cs"
 "Assets/Scripts/Player/Movement/MouseManager.cs"
 "Assets/Scripts/Player/Movement/PlayerMovement.cs"
-"Assets/Scripts/test.cs"
 "Assets/Scripts/UI/floating/FloatingTextDisplay.cs"
 "Assets/Scripts/Vehicles/ForkMovement.cs"
 "Assets/Scripts/Vehicles/Movement/CarController.cs"

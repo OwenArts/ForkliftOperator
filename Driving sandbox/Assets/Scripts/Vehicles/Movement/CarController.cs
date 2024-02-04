@@ -19,6 +19,7 @@ public class CarController : MonoBehaviour
         public WheelCollider WheelCollider;
         public Axle Axle;
         public bool MotorDriven;
+        public bool Steerable;
         public GameObject WheelEffectObj;
     }
 
@@ -69,7 +70,7 @@ public class CarController : MonoBehaviour
     private void steer()
     {
         foreach (var w in wheels)
-            if (w.Axle == Axle.Rear)
+            if (w.Steerable)
             {
                 var steerAngle = steerInput * steerSensitivity * maxSteerAngle;
                 w.WheelCollider.steerAngle = -steerAngle;

@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recentFilesPaths:
-  - Assets/Scripts/Vehicles/Movement/CarController.cs
   - Assets/Scripts/General/PlayersManager.cs
   - Assets/Custom models/Forklift ExtremeLowPoly.obj
   - Assets/Custom models/ForkliftBody.obj
@@ -23,3 +22,4 @@ MonoBehaviour:
   - Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab
   - Assets/Scripts/Vehicles/SkidMarkSystem.cs
   - Assets/Custom models/Log.obj
+  - Assets/Scripts/Vehicles/Movement/CarController.cs
