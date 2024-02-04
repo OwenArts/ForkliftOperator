@@ -1,0 +1,144 @@
+﻿14:08:24.412 |I| Core                           | RequestBuilder thread:8        | MsBuild process with Id = 2056
+14:08:24.413 |I| Core                           | RequestBuilder thread:8        | MsBuild location = C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+14:08:24.413 |I| Core                           | RequestBuilder thread:8        | 
+14:08:24.413 |I| Core                           | RequestBuilder thread:8        | Start ControllerTask...
+14:08:24.413 |I| Core                           | RequestBuilder thread:8        | Detected version: 17.6
+14:08:24.413 |I| Core                           | RequestBuilder thread:8        | Creating SocketWire with port = 55256
+14:08:24.429 |I| Core                           | RequestBuilder thread:8        | Create protocol...
+14:08:24.465 |I| Core                           | RequestBuilder thread:8        | Create MsBuildModel and advise for new sessions...
+14:08:24.484 |I| Core                           | RequestBuilder thread:8        | Subscribe for changes...
+14:08:24.485 |I| Core                           | RequestBuilder thread:8        | Setup process watchdog...
+14:08:24.486 |I| Core                           | RequestBuilder thread:8        | Run dispatcher...
+14:08:24.486 |I| ProcessWatchdog                | WatchParentPid:62064:12        | Monitoring parent process PID:62064
+14:08:24.579 |I| Core                           | RequestBuilder thread:8        | Get protocol session 'RdProjectModelSession'
+14:08:24.584 |I| Core                           | RequestBuilder thread:8        | Msbuild session 'ProjectModelSessionHost' created
+14:08:24.631 |I| ProjectModel                   | RequestBuilder thread:8        | Reloading 22 project(s) in 1 node(s)...
+14:08:24.638 |I| Build                          | MSBuild LoggingService events queue pump: 62495167:14 | Build started.
+14:08:25.130 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'UnityEngine.TestRunner.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.131 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: UnityEngine.TestRunner.csproj
+14:08:25.133 |I| Build                          | RequestBuilder thread:8        | Start build 'UnityEngine.TestRunner.csproj' with 1 target frameworks
+14:08:25.135 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.138 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.Timeline.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.138 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'UnityEngine.UI.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.138 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: UnityEngine.UI.csproj
+14:08:25.138 |I| Build                          | RequestBuilder thread:8        | Start build 'UnityEngine.UI.csproj' with 1 target frameworks
+14:08:25.145 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.145 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.TextMeshPro.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.145 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Assembly-CSharp.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'UnityEditor.TestRunner.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.PlasticSCM.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'UnityEditor.UI.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.Services.Core.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.Timeline.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.VisualStudio.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.TextMeshPro.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.CollabProxy.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.Rider.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.146 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'JetBrains.Frontend.2020.2.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.147 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.VSCode.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.147 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'UnityEditor.UIBuilderModule.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.147 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'UnityEngine.TestRunner.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.147 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: UnityEngine.TestRunner.Player.csproj
+14:08:25.147 |I| Build                          | RequestBuilder thread:8        | Start build 'UnityEngine.TestRunner.Player.csproj' with 1 target frameworks
+14:08:25.148 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.148 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.Timeline.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.148 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'UnityEngine.UI.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.148 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: UnityEngine.UI.Player.csproj
+14:08:25.148 |I| Build                          | RequestBuilder thread:8        | Start build 'UnityEngine.UI.Player.csproj' with 1 target frameworks
+14:08:25.149 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.149 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Unity.TextMeshPro.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.149 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Assembly-CSharp.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+14:08:25.263 |I| Build                          | :7                             | Finish build part [1/1] for project 'UnityEngine.TestRunner.csproj': Success
+14:08:25.263 |I| Build                          | :7                             | Finish build project 'UnityEngine.TestRunner.csproj': Success
+14:08:25.303 |I| BuildQueue                     | :7                             | Build layer: UnityEditor.TestRunner.csproj
+14:08:25.303 |I| Build                          | :7                             | Start build 'UnityEditor.TestRunner.csproj' with 1 target frameworks
+14:08:25.303 |I| Build                          | :7                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.304 |I| Build                          | :5                             | Finish build part [1/1] for project 'UnityEngine.UI.Player.csproj': Success
+14:08:25.304 |I| Build                          | :5                             | Finish build project 'UnityEngine.UI.Player.csproj': Success
+14:08:25.456 |I| Build                          | :5                             | Finish build part [1/1] for project 'UnityEditor.TestRunner.csproj': Success
+14:08:25.456 |I| Build                          | :5                             | Finish build project 'UnityEditor.TestRunner.csproj': Success
+14:08:25.498 |I| Build                          | :4                             | Finish build part [1/1] for project 'UnityEngine.TestRunner.Player.csproj': Success
+14:08:25.498 |I| Build                          | :4                             | Finish build project 'UnityEngine.TestRunner.Player.csproj': Success
+14:08:25.534 |I| Build                          | :5                             | Finish build part [1/1] for project 'UnityEngine.UI.csproj': Success
+14:08:25.534 |I| Build                          | :5                             | Finish build project 'UnityEngine.UI.csproj': Success
+14:08:25.540 |I| BuildQueue                     | :5                             | Build layer: UnityEditor.UI.csproj, Unity.Timeline.Player.csproj, Unity.TextMeshPro.Player.csproj
+14:08:25.540 |I| Build                          | :5                             | Start build 'UnityEditor.UI.csproj' with 1 target frameworks
+14:08:25.541 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.541 |I| Build                          | :5                             | Start build 'Unity.Timeline.Player.csproj' with 1 target frameworks
+14:08:25.542 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.542 |I| Build                          | :5                             | Start build 'Unity.TextMeshPro.Player.csproj' with 1 target frameworks
+14:08:25.543 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.581 |I| Build                          | :5                             | Finish build part [1/1] for project 'UnityEditor.UI.csproj': Success
+14:08:25.581 |I| Build                          | :5                             | Finish build project 'UnityEditor.UI.csproj': Success
+14:08:25.595 |I| BuildQueue                     | :5                             | Build layer: Unity.Timeline.csproj, Unity.TextMeshPro.csproj, Unity.PlasticSCM.Editor.csproj, Unity.Services.Core.Editor.csproj, Unity.VisualStudio.Editor.csproj, Unity.Rider.Editor.csproj, JetBrains.Frontend.2020.2.csproj, Unity.VSCode.Editor.csproj, UnityEditor.UIBuilderModule.csproj
+14:08:25.595 |I| Build                          | :5                             | Start build 'Unity.Timeline.csproj' with 1 target frameworks
+14:08:25.596 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.596 |I| Build                          | :5                             | Start build 'Unity.TextMeshPro.csproj' with 1 target frameworks
+14:08:25.596 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.596 |I| Build                          | :5                             | Start build 'Unity.PlasticSCM.Editor.csproj' with 1 target frameworks
+14:08:25.597 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.597 |I| Build                          | :5                             | Start build 'Unity.Services.Core.Editor.csproj' with 1 target frameworks
+14:08:25.598 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.598 |I| Build                          | :5                             | Start build 'Unity.VisualStudio.Editor.csproj' with 1 target frameworks
+14:08:25.599 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.599 |I| Build                          | :5                             | Start build 'Unity.Rider.Editor.csproj' with 1 target frameworks
+14:08:25.599 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.599 |I| Build                          | :5                             | Start build 'JetBrains.Frontend.2020.2.csproj' with 1 target frameworks
+14:08:25.599 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.599 |I| Build                          | :5                             | Start build 'Unity.VSCode.Editor.csproj' with 1 target frameworks
+14:08:25.600 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.600 |I| Build                          | :5                             | Start build 'UnityEditor.UIBuilderModule.csproj' with 1 target frameworks
+14:08:25.601 |I| Build                          | :5                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.633 |I| Build                          | :23                            | Finish build part [1/1] for project 'Unity.TextMeshPro.Player.csproj': Success
+14:08:25.633 |I| Build                          | :23                            | Finish build project 'Unity.TextMeshPro.Player.csproj': Success
+14:08:25.699 |I| Build                          | :7                             | Finish build part [1/1] for project 'UnityEditor.UIBuilderModule.csproj': Success
+14:08:25.699 |I| Build                          | :7                             | Finish build project 'UnityEditor.UIBuilderModule.csproj': Success
+14:08:25.749 |I| Build                          | :24                            | Finish build part [1/1] for project 'Unity.VSCode.Editor.csproj': Success
+14:08:25.749 |I| Build                          | :24                            | Finish build project 'Unity.VSCode.Editor.csproj': Success
+14:08:25.786 |I| Build                          | :4                             | Finish build part [1/1] for project 'JetBrains.Frontend.2020.2.csproj': Success
+14:08:25.787 |I| Build                          | :4                             | Finish build project 'JetBrains.Frontend.2020.2.csproj': Success
+14:08:25.823 |I| Build                          | :7                             | Finish build part [1/1] for project 'Unity.Rider.Editor.csproj': Success
+14:08:25.823 |I| Build                          | :7                             | Finish build project 'Unity.Rider.Editor.csproj': Success
+14:08:25.865 |I| Build                          | :5                             | Finish build part [1/1] for project 'Unity.VisualStudio.Editor.csproj': Success
+14:08:25.865 |I| Build                          | :5                             | Finish build project 'Unity.VisualStudio.Editor.csproj': Success
+14:08:25.901 |I| Build                          | :7                             | Finish build part [1/1] for project 'Unity.Services.Core.Editor.csproj': Success
+14:08:25.901 |I| Build                          | :7                             | Finish build project 'Unity.Services.Core.Editor.csproj': Success
+14:08:25.951 |I| Build                          | :24                            | Finish build part [1/1] for project 'Unity.PlasticSCM.Editor.csproj': Success
+14:08:25.951 |I| Build                          | :24                            | Finish build project 'Unity.PlasticSCM.Editor.csproj': Success
+14:08:25.964 |I| BuildQueue                     | :24                            | Build layer: Unity.CollabProxy.Editor.csproj
+14:08:25.964 |I| Build                          | :24                            | Start build 'Unity.CollabProxy.Editor.csproj' with 1 target frameworks
+14:08:25.965 |I| Build                          | :24                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:25.990 |I| Build                          | :23                            | Finish build part [1/1] for project 'Unity.TextMeshPro.csproj': Success
+14:08:25.990 |I| Build                          | :23                            | Finish build project 'Unity.TextMeshPro.csproj': Success
+14:08:26.004 |I| BuildQueue                     | :23                            | Build layer: Unity.TextMeshPro.Editor.csproj
+14:08:26.005 |I| Build                          | :23                            | Start build 'Unity.TextMeshPro.Editor.csproj' with 1 target frameworks
+14:08:26.005 |I| Build                          | :23                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:26.046 |I| Build                          | :18                            | Finish build part [1/1] for project 'Unity.CollabProxy.Editor.csproj': Success
+14:08:26.046 |I| Build                          | :18                            | Finish build project 'Unity.CollabProxy.Editor.csproj': Success
+14:08:26.092 |I| Build                          | :18                            | Finish build part [1/1] for project 'Unity.TextMeshPro.Editor.csproj': Success
+14:08:26.092 |I| Build                          | :18                            | Finish build project 'Unity.TextMeshPro.Editor.csproj': Success
+14:08:26.133 |I| Build                          | :18                            | Finish build part [1/1] for project 'Unity.Timeline.csproj': Success
+14:08:26.133 |I| Build                          | :18                            | Finish build project 'Unity.Timeline.csproj': Success
+14:08:26.144 |I| BuildQueue                     | :18                            | Build layer: Unity.Timeline.Editor.csproj, Assembly-CSharp.Player.csproj
+14:08:26.144 |I| Build                          | :18                            | Start build 'Unity.Timeline.Editor.csproj' with 1 target frameworks
+14:08:26.145 |I| Build                          | :18                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:26.145 |I| Build                          | :18                            | Start build 'Assembly-CSharp.Player.csproj' with 1 target frameworks
+14:08:26.146 |I| Build                          | :18                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:26.177 |I| Build                          | :18                            | Finish build part [1/1] for project 'Unity.Timeline.Player.csproj': Success
+14:08:26.177 |I| Build                          | :18                            | Finish build project 'Unity.Timeline.Player.csproj': Success
+14:08:26.226 |I| Build                          | :18                            | Finish build part [1/1] for project 'Assembly-CSharp.Player.csproj': Success
+14:08:26.226 |I| Build                          | :18                            | Finish build project 'Assembly-CSharp.Player.csproj': Success
+14:08:26.264 |I| Build                          | :18                            | Finish build part [1/1] for project 'Unity.Timeline.Editor.csproj': Success
+14:08:26.264 |I| Build                          | :18                            | Finish build project 'Unity.Timeline.Editor.csproj': Success
+14:08:26.276 |I| BuildQueue                     | :18                            | Build layer: Assembly-CSharp.csproj
+14:08:26.276 |I| Build                          | :18                            | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+14:08:26.277 |I| Build                          | :18                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+14:08:26.325 |I| Build                          | :25                            | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+14:08:26.325 |I| Build                          | :25                            | Finish build project 'Assembly-CSharp.csproj': Success
+14:08:26.394 |I| ProjectModel                   | RequestBuilder thread:8        | Reloading has finished, statistic: 
+	Total: 1,75 sec
+	Binding: 0,23 sec
+	Evaluation: 0,40 sec
+14:08:26.396 |I| Build                          | MSBuild LoggingService events queue pump: 62495167:14 | Build succeeded.
+14:11:50.305 |I| Core                           | RequestBuilder thread:8        | Msbuild session 'ProjectModelSessionHost' was terminated
+14:11:50.306 |I| Core                           | RequestBuilder thread:8        | Connection lost, kill msbuild
